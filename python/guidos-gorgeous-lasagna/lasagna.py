@@ -7,9 +7,13 @@ This is a module docstring, used to describe the functionality
 of a module and its functions and/or classes.
 """
 
+class lasagna:
+
+    EXPECTED_BAKE_TIME = 40
 
 #TODO: define the 'EXPECTED_BAKE_TIME' constant.
-
+# import lasagna
+print(lasagna.EXPECTED_BAKE_TIME)
 
 #TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
 def bake_time_remaining():
